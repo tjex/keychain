@@ -1241,7 +1241,7 @@ $color || unset BLUE CYAN CYANN GREEN PURP OFF RED
 
 qprint #initial newline
 mesg "${PURP}keychain ${OFF}${CYANN}${version}${OFF} ~ tjex : www.tjex.net"
-mesg "${PURP}Note:${OFF} This is a private fork. Project origin: https://funtoo.org/Funtoo:Keychain"
+mesg "${PURP}Note:${OFF} This is a private fork of: https://funtoo.org/Funtoo:Keychain"
 [ "$myaction" = version ] && {
 	versinfo
 	exit 0
